@@ -1,0 +1,157 @@
+@media screen and (max-width: 1135px) {
+    .teamContent {
+        flex-direction: column;
+    }
+    .anouar, .andrea {
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .info, .developer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    .navigation .navbar .logo-toggle-container {
+        position: static;
+        transform: translateX(0%);
+    }
+    .navigation .navbar .logo-toggle-container a {
+        width: 80%;
+    }
+    .navigation .navbar .logo-toggle-container a img {
+        margin-left: 40px;
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: block;
+        width: 30px;
+        padding: 15px 9px;
+        cursor: pointer;
+        border-radius: 5px; 
+        margin-right: 40px;
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span {
+        display: block;
+        width: 30px;
+        margin: auto;
+        height: 3px;
+        border-radius: 30px;
+        background-color: #fff;
+        margin-bottom: 5px;
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span:last-child {
+        margin-bottom: 0px;
+    }
+    .navigation .menu {
+        text-align: left;
+        display: none;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+    .navigation .menu li {
+        display: block;
+        float: none !important;
+        padding: 0px 10px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navigation .menu {
+        display: block !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 920px) {
+    .project-item {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .home h1 {
+        font-size: 68px;
+        line-height: 75px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .anouar, .andrea {
+        flex-direction: column;
+        height: fit-content;
+        width: fit-content;
+        padding-top: 15px;
+        padding-bottom: 55px;
+    }
+}
+
+@media screen and (max-width: 593px) {
+    .home h1 {
+        font-size: 48px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .servicesTitle h2, .productsTitle h2, .teamTitle h2, .purchaseTitle h2, .contactsTitle h2 {
+        font-size: 3.2em;
+        text-align: center;
+    }
+    .servicesTitle p, .productsTitle p, .teamTitle p, .purchaseTitle p, .contactsTitle p {
+        font-size: 1.2em;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .servicesTitle h2, .productsTitle h2, .teamTitle h2, .purchaseTitle h2, .contactsTitle h2 {
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .home h1 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .row {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media screen and (max-width: 314px) {
+    .home h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 311px) {
+    .servicesTitle h2, .productsTitle h2, .teamTitle h2, .purchaseTitle h2, .contactsTitle h2 {
+        font-size: 2em;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}
