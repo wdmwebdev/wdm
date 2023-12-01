@@ -505,6 +505,11 @@ body {
     text-align: center;
 }
 
+.price-col:nth-child(2) {
+    border: 2px solid #aa8f40;
+    scale: 1.05;
+}
+
 .price-col h3 {
     font-size: 34px;
     margin: 20px 0 40px;
