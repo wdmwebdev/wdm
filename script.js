@@ -130,15 +130,5 @@ window.onload = function() {
     particlesJS("particle", config);
 }
 
-sendBtn.onclick = () => {
-    emailjs.send("service_bqf6jal","template_fparuk5",{
-        from_name: document.getElementById("email").value,
-        email_id: document.getElementById("email").value,
-        message: document.getElementById("message").value,
-    });
-    alert("MESSAGGIO INVIATO!!!")
-}
-
-
 
 
