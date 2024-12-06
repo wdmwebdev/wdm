@@ -210,11 +210,116 @@ body {
     color: #fff;
 }
 
-.services {
+.chisiamo {
     height: fit-content;
     width: 100%;
     padding-bottom: 100px;
     background-color: #fff;
+}
+
+.aboutTitle {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.aboutTitle h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.aboutTitle p {
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+    color: #aa8f40;
+    font-weight: 600;
+}
+
+.about {
+    height: fit-content;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.about .main img {
+    width: 400px;
+    max-width: 100%;
+    height: 550px; /*height: auto;*/
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 3px rgba(0,0,0,0.3);
+}
+
+.all-text {
+    width: 600px;
+    max-width: 100%;
+}
+
+.main {
+    width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-text h4 {
+    font-size: 18px;
+    color: #3b3b3b;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.all-text h1 {
+    font-size: 44px;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 65px;
+}
+
+.all-text p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #5e5e5e;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.all-text p span {
+    font-weight: bold;
+    color: #000;
+}
+
+.btn button {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: 2px solid #aa8f40;
+    background-color: #aa8f40;
+    margin-right: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btn button:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+.services {
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 100px;
 }
 
 .servicesTitle {
@@ -225,7 +330,7 @@ body {
 .servicesTitle h2 {
     font-size: 60px;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
 }
 
 .servicesTitle p {
@@ -261,6 +366,7 @@ body {
     height: fit-content;
     padding-bottom: 50px;
     box-shadow: 3px 3px 20px 3px rgba(0,0,0,0.3);
+    border-radius: 10px;
 }
 
 .service:nth-child(2) {
@@ -299,6 +405,7 @@ body {
     height: fit-content;
     width: 100%;
     padding-bottom: 100px;
+    background-color: #fff;
 }
 
 .productsTitle {
@@ -309,6 +416,7 @@ body {
 .productsTitle h2 {
     font-size: 60px;
     text-transform: uppercase;
+    color: #000;
 }
 
 .productsTitle p {
@@ -337,6 +445,7 @@ body {
     height: auto;
     transition: 0.4s ease;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .project-item img:hover {
@@ -346,7 +455,6 @@ body {
 .team {
     height: fit-content;
     width: 100%;
-    background-color: #fff;
     padding-bottom: 40px;
 }
 
@@ -358,7 +466,7 @@ body {
 .teamTitle h2 {
     font-size: 60px;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
 }
 
 .teamTitle p {
@@ -382,6 +490,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .anouar {
@@ -390,6 +499,7 @@ body {
     height: 300px;
     width: 600px;
     margin: 25px;
+    padding: 20px;
 }
 
 .andrea {
@@ -398,6 +508,7 @@ body {
     height: 300px;
     width: 600px;
     margin: 25px;
+    padding: 20px;
 }
 
 .profileImage {
@@ -462,6 +573,7 @@ body {
 
 .purchase {
     height: fit-content;
+    background-color: #fff;
     width: 100%;
 }
 
@@ -473,6 +585,7 @@ body {
 .purchaseTitle h2 {
     font-size: 60px;
     text-transform: uppercase;
+    color: #000;
 }
 
 .purchaseTitle p {
@@ -507,7 +620,7 @@ body {
 }
 
 .price-col:nth-child(2) {
-    border: 2px solid #aa8f40;
+    border: 3px solid #aa8f40;
     scale: 1.05;
 }
 
@@ -542,7 +655,7 @@ body {
 .price-col button {
     width: 100%;
     padding: 14px 0;
-    background-color: transparent;
+    background-color: #aa8f40;
     color: #fff;
     font-size: 15px;
     border: 1px solid #aa8f40;
@@ -553,25 +666,25 @@ body {
 }
 
 .price-col button:hover {
-    background-color: #aa8f40;
+    background-color: transparent;
 }
 
 .contacts {
     height: fit-content;
     width: 100%;
-    padding-bottom: 50px;
-    background-color: #fff;
+    padding-bottom: 30px;
 }
 
 .contactsTitle {
-    text-align: center;
-    padding-top: 170px;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 170px;
 }
 
 .contactsTitle h2 {
     font-size: 60px;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
 }
 
 .contactsTitle p {
@@ -584,8 +697,7 @@ body {
 .contactsContent {
     height: fit-content;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 0px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -595,10 +707,8 @@ body {
 .social-icons {
     height: 50px;
     width: 100%;
-    padding-bottom: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 330px;
 }
 
 .social-icons a {
@@ -609,8 +719,8 @@ body {
     align-items: center;
     background-color: #aa8f40;
     border: 2px solid transparent;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     margin: 5px;
     font-size: 20px;
     border-radius: 50%;
@@ -618,49 +728,6 @@ body {
 }
 
 .social-icons a:hover {
-    background-color: #fff;
-    border-color: #aa8f40;
-    color: #000;
-}
-
-.email-form {
-    background-color: #fff;
-    height: fit-content;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    box-shadow: 3px 3px 20px 3px rgba(0,0,0,0.3);
-}
-
-#email, #object, #message, #sendBtn {
-    margin: 5px;
-    border: none;
-    outline: none;
-    padding: 13px 20px;
-    border-radius: 5px;
-    background-color: #efefef;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-#message {
-    resize: none;
-}
-
-#sendBtn {
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: 600;
-    background-color: #aa8f40;
-    border: 2px solid transparent;
-    color: #fff;
-    transition: 0.4s ease;
-    text-align: center;
-    text-decoration: none;
-}
-
-#sendBtn:hover {
     background-color: #fff;
     border-color: #aa8f40;
     color: #000;
@@ -678,7 +745,6 @@ body {
     height: fit-content;
     padding-left: 170px;
     padding-right: 100px;
-    padding-top: 50px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
