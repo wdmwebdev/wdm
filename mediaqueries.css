@@ -1,3 +1,9 @@
+@media screen and (max-width: 1270px) {
+    .anouar, .andrea {
+        padding: 70px 10px;
+    }
+}
+
 @media screen and (max-width: 1135px) {
     .teamContent {
         flex-direction: column;
@@ -8,9 +14,13 @@
 }
 
 @media screen and (max-width: 1065px) {
-    .info, .developer {
+    .info, .developer, .contactsTitle {
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .social-icons {
+        padding-left: 90px;
     }
 }
 
@@ -119,6 +129,11 @@
     .social-links {
         justify-content: center;
     }
+
+    .contactsTitle h2, .contactsTitle p {
+        text-align: left;
+        padding-left: 0px;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -153,5 +168,37 @@
     }
     .social-links {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 60px 0;
+    }
+    .all-text {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-text h1 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about .main img {
+        margin-bottom: 0px;
+    }
+    .all-text h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
     }
 }
